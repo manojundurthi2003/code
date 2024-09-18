@@ -1,0 +1,55 @@
+/* ResearchProjects.css */
+
+.container {
+  padding: 77px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1150px;
+}
+
+h1 {
+  color: #0fb820;
+}
+
+.table-auto {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-auto thead {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.table-auto th,
+.table-auto td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table-auto th {
+  font-weight: 600;
+}
+
+.table-auto tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+
+
+.table-auto tbody tr:hover {
+  background-color: #e2e2e2;
+}
+
+.custom-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .table-auto {
+    font-size: 14px;
+  }
+}
